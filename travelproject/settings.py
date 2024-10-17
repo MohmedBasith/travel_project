@@ -77,13 +77,12 @@ WSGI_APPLICATION = 'travelproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'inmakes_travelproject',
         'USER': 'root',
         'PASSWORD': '',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
